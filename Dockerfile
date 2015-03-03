@@ -15,7 +15,7 @@ RUN yum install get_iplayer pwgen -y
 RUN yum clean all
 
 # Set the root password to changeme
-echo "root:changeme" | chpasswd
+RUN echo "root:changeme" | chpasswd
 
 # Start sshd
 EXPOSE 22
