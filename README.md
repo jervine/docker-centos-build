@@ -1,2 +1,2 @@
-# docker-fedora-get_iplayer
-Latest Fedora with get_iplayer installed
+# docker-centos-build
+Latest CentOS running SSH server on port 22 with gcc, and make installed.
